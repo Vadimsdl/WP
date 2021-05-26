@@ -1,0 +1,525 @@
+/*
+Theme Name: Food Recipe
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: kvi
+Author URI: 
+Description: Popular recipe of food in 2020
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, food-and-drink, right-sidebar. three-columns, two-columns, custom-colors, custom-background, block-styles, custom-header, custom-menu, block-styles, footer-widgets, rtl-language-support, microformats
+Text Domain: foodrecipr
+
+This we replace recipe food with your friend
+*/
+/*header*/
+/*Header-------------------------------*/
+.header{
+    background-size: cover;
+    width: 100%;
+}
+
+.header-top{
+    background-color: rgba(102, 102, 102, 0.41);
+    max-width: none;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+}
+/*Logo*/
+div.logo 
+{
+    color: white;
+    font-size: 26px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: -18px;
+    top: -15px;
+}
+
+div.logo:first-letter
+{
+    margin-left: 5px;
+    padding: 2px;
+}
+
+.custom-logo-link{
+    float: left;
+}
+
+.custom-logo{
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 9px;
+}
+/*end logo*/
+/*menu header*/
+div.menu
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 19px;
+    left: -10px;
+    top: -15px;
+    text-transform: uppercase;
+}
+
+button.navbar-toggler{
+    border: 0px;
+    color:white;
+}
+
+li#menu-item-67{
+    padding-left: 29px;
+}
+
+li#menu-item-66{
+    padding-left: 29px;
+}
+
+li#menu-item-65{
+    padding-left: 15px;
+}
+/*end menu header*/
+/*button register and autorisation*/
+/*put the button of register to the left*/
+div.register-area div.button-register{
+    height: 60px;
+    background-color: rgb(218, 0, 116);
+    width: 128px;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: -26px;
+}
+/*put the button of autorisation to the left*/
+div.register-area h2.button-area{
+    height: 60px;
+    background-color: rgb(218, 0, 116);
+    width: 100px;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    top: -45px;
+    left: 113px;
+}
+
+div.register-area div.button-register a.link-register{
+    color:white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+
+}
+
+div.register-area h2.button-area a.link-area{
+    color:white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+
+div.register-area div.button-register A:hover{
+    text-decoration: none; 
+    color: rgb(248, 248, 248);
+}
+
+div.register-area h2.button-area A:hover{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+
+div.register-area
+{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*end register and autorisation*/
+/*end header*/
+/*footer*/
+div.footer
+{
+    background-color: rgb(37, 37, 37);
+}
+
+/*here I change the menu, put it horizontal and shift it*/
+#menu-menu-1.menu li {
+    margin: 1em 1em 0em 0em;
+    list-style-type: none;
+    display: inline;
+}
+
+/*in the upper footer I paint the letters that are links*/
+ul#sidebar.row A {
+    color:lightgray;
+} 
+
+/*in the top footer I paint link letters*/
+ul#sidebar.row A:hover { 
+    text-decoration: none; 
+    color: deeppink;
+}
+
+/*I paint the titles in white in the top footer*/
+ul#sidebar.row h2.widgettitle{
+    color:white;
+    padding: 20px 0 20px 0;
+}
+
+/*in the menu in the middle I paint letters that are links*/
+ul#menu-menu-1.menu A {
+    color:white;
+} 
+
+/*in the menu in the middle I paint the letters of the link*/
+ul#menu-menu-1.menu A:hover { 
+    text-decoration: none; 
+    color: deeppink;
+} 
+
+div.footer-top
+{
+    color: lightgrey;
+    background-color: rgb(44, 44, 44);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.col-12.order-3.col-sm-2.order-sm-2 h3.button-link{
+    border-radius: 80%;
+    height:70%;
+    width: 30%;
+    background-color: deeppink;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div.footer-bottom
+{
+    background-color: rgb(37, 37, 37);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.caption-left{
+    font-size: 14px;
+    color: lightgrey; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.caption-right{
+    font-size: 14px;
+    color: lightgrey; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+/*end footer*/
+/*sidebar*/
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+div.sidbar{
+    margin-top: 50px;
+}
+
+ul#left-sidebar{
+    margin-top: 100px;
+}
+
+li#search-3{
+    margin-top: -80px;
+}
+
+input#search{
+    width: 85%;
+}
+
+li#categories-3{
+    margin-top: 50px;
+}
+
+li#categories-3 li{
+    border-top: 1px solid black;
+    
+}
+
+li#categories-3 h2.widgettitle:before{
+    content: "\22EE \2630";
+    color: deeppink;
+
+}
+
+li#categories-3 h2.widgettitle{
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+li#categories-3 li, li#categories-3 a{
+    color:grey;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+li.cat-item-3 a, li.cat-item-2 a{
+  /*  padding-right: 128px;*/
+}
+
+li#categories-3 a{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 60%;
+    
+}
+
+li.cat-item-1{
+    border-bottom: 1px solid black;
+}
+
+li#categories-3 li:hover, li#categories-3 A:hover{
+    color: deeppink;
+    text-decoration: none;
+} 
+
+li#categories-3 h2.widgettitle, li#recent-posts-3 h2.widgettitle,li#text-4 h2.widgettitle,li#archives-3 h2.widgettitle{
+    text-transform: uppercase;
+}
+
+li#archives-3 h2.widgettitle::before
+{
+    content:"\1F4C5";
+}
+
+li#archives-3 ul{
+    color: gray;
+}
+
+div.col-12.col-sm-5.col-md-6{
+    color: gray;
+    font-size: 21px;
+} 
+
+li#recent-posts-3 ul{
+    color: gray;
+}
+
+li#text-4 div.textwidget{
+    color: gray;
+}
+
+div.col-12.col-sm-7.col-md-6{
+    color: gray;
+    text-align: right;
+    font-size: 13px;
+}
+
+li#recent-posts-3{
+    padding-top: 50px;
+}
+
+li#text-4 h2.widgettitle{
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+li#recent-posts-3 h2.widgettitle{
+    border-bottom: 1px solid black;
+    margin-bottom: -4px;
+}
+
+li#recent-posts-3 li{
+    border-bottom: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+
+li#recent-posts-3 a{
+    color:black;
+    font-size: 18px;
+}
+
+li#categories-3 li{
+    border-top: 1px solid black;
+}
+
+li#recent-posts-3 a:hover{
+    color:deeppink;
+    text-decoration: none;
+}
+
+li#recent-posts-3 h2.widgettitle{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+
+li#categories-3 ul li#cat-item{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+li#archives-3{
+    padding-top: 50px;
+}
+
+li#archives-3 h2.widgettitle{
+    font-size: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: -4px;
+}
+
+li#archives-3 li{
+    border-bottom: 1px solid black;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: block;
+}
+
+li#archives-3 a:hover,li#archives-3 li:hover{
+    color:deeppink;
+    text-decoration: none;
+}
+
+li#archives-3 a{
+    color:gray;
+    font-size: 17px;
+}
+/*end sidebar*/
+/*content*/
+div.top-navigation{
+    margin-top: 75px;
+}
+
+select#foodrecipe_count_post:hover, span.sort_post:hover, span.count_post:hover, select#foodrecipe_sort_post:hover{
+    border: 0px;
+    color: deeppink;
+}
+
+select#foodrecipe_count_post, select#foodrecipe_sort_post{
+    border: 0px;
+    color: gray;
+    background-color: white;
+}
+
+div.post small a, div.post small a:hover{
+    color: deeppink;
+    text-decoration: none;
+}
+
+div.post h2 a, div.post h2 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+div.post{
+    text-align: center;
+}
+
+div.post h2, div.post small{
+    text-transform: uppercase;
+}
+
+div.bottom-navigation{
+    text-align: center;
+    margin-top:8%;
+}
+
+/*end content*/
+/*start slider*/
+div.carousel-caption.d-none.d-md-block{
+    color: white;
+    margin-bottom: 180px;
+}
+
+div.carousel-caption.d-none.d-md-block a.button{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 2px white solid;
+    padding: 10px 18px 10px 18px;
+    bottom: 100px;
+}
+
+div.carousel-caption.d-none.d-md-block h1.title{
+    text-transform: uppercase;
+} 
+
+div.carousel-caption.d-none.d-md-block p{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+div.carousel-caption.d-none.d-md-block a.button:hover{
+    color: deeppink;
+    text-decoration: none;
+    border: 2px deeppink solid;
+}
+
+div.carousel-inner{
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    z-index: 1;
+}
+
+.slider_container {
+    padding-top: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_wrapper {
+    size: inherit;
+}
+
+.carousel-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 782px;
+}
+
+a.carousel-control-prev, a.carousel-control-next{
+    border-radius: 100px;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+/*end slider*/
+
+@font-face { 
+    font-family: OpenSans; 
+    src: local( '/fonts/OpenSans-Regular.ttf' ) format( 'truetype' ),
+    local( '/fonts/OpenSans-Regular.eot' ) format( 'embedded-opentype' ),
+    local( '/fonts/OpenSans-Regular.woff2' ) format( 'woff2' ),
+    local( '/fonts/OpenSans-Regular.woff' ) format( 'woff' ); 
+}
